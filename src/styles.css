@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #c7cfd4;
+    color: #1B2A41;
 }
 
 header {
-    background-color: #333;
+    background-color: #1B2A41;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -28,8 +28,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
+    color: #058ED9;
+    border-bottom: 2px solid #058ED9;
 }
 
 section {
@@ -45,6 +45,11 @@ footer {
     text-align: center;
     margin-top: 4rem;
     padding: 1rem 0;
-    background-color: #333;
+    background-color: #1B2A41;
     color: white;
+}
+
+
+.email-link {
+    color: #058ED9;
 }
