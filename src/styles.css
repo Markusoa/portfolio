@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #c7cfd4;
+    background-color: #cfd7db;
     color: #1B2A41;
 }
 
@@ -39,6 +39,13 @@ section {
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects li strong {
+    color: #058ED9;
+    cursor: pointer;
+
+    text-decoration: underline;
 }
 
 footer {
