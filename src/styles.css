@@ -60,3 +60,8 @@ footer {
 .email-link {
     color: #058ED9;
 }
+
+.project-image {
+    width: 100%;
+    border-radius: 1%;
+}
