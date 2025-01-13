@@ -13,6 +13,11 @@ header {
     text-align: center;
 }
 
+header .nappula {
+    color: #058ED9;
+    font-size: x-large;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -20,7 +25,7 @@ nav {
     margin: 1rem 0;
 }
 
-nav a {
+.navbutton {
     text-decoration: none;
     color: #333;
     border-bottom: 2px solid transparent;
@@ -44,8 +49,9 @@ section {
 #projects li strong {
     color: #058ED9;
     cursor: pointer;
-
     text-decoration: underline;
+    font-weight: 500;
+    
 }
 
 footer {
@@ -64,4 +70,8 @@ footer {
 .project-image {
     width: 100%;
     border-radius: 1%;
+}
+.email {
+    color: black;
+
 }
